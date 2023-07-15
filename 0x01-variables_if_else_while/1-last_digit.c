@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints 1-last_digit.c.
- * and wether it is greater than 5, less than 6, or 0.
+ * main - 1-last_digit.c.
  *
  * Return: always 0.
  */
