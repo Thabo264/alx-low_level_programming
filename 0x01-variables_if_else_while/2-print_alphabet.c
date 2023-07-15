@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet.
+ * main - 2-print_alphabet.c
  *
  * Return: Always 0 (success)
  */
@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(alp[i])
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
