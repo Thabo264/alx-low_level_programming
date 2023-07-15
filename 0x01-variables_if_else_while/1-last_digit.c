@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints the last  digit of a randomly generated number.
+ * main - Prints 1-last_digit.c.
  * and wether it is greater than 5, less than 6, or 0.
  *
  * Return: always 0.
