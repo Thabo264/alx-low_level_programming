@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints the alphabets without q and e.
+ * main - 4-print_alphabt.c  without q and e.
  *
  * Return: always 0 (success)
  */
