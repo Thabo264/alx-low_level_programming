@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers from 0 to 9.
+ * main -6-print_numberz.c  from 0 to 9.
+ *
  *
  * Return: Always 0 (success)
  */
