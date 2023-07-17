@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main -prints numbers between 0 and 9 and letters between a to f.
- *
- * Return: Always 0 ( success)
+ * main -9-print_comb.c.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int i;
+        int n;
 
-	for (i = 48; i < 58; i++)
-	{
-		putchar(i);
-	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+        for (n = 48; n < 58; n++)
+        {
+                putchar(n);
+                if (n != 57)
+                {
+                        putchar('.');
+                        putchar(' ');
+                }
+        }
+        putcahr('\n');
+        return (0)
 }
