@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - shows 1 if the output is 0.
+ * main - 4-isalpha.  shows 1 if the output is 0'.
  * letter another cases 0
  *
  * @c: the charecter in ASCII code
