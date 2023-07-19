@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints the alphabe 10 times.
+ * print_alphabet_x10 - prints the alphabet 10 times.
  *
  * Return: always 0 (success)
  */
 void print_alphabet_x10(void)
 {
 	int i;
-
 	int j;
 
 	for (j = 1; i <= 10; i++)
