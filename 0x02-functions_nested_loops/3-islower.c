@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - showa 1 is the output is a.
+ * _ islower - shows 1 if the output is a.
  * lowercase charecter. another cases, show
  * 0
  *
@@ -8,9 +8,9 @@
  *
  * Return: 1 for lowercase charecter. 0 for the rest.
  */
-int _slower(int c)
+int _islower(int c)
 {
-	if (c >= 97; && c <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
