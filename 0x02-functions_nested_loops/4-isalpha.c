@@ -1,20 +1,24 @@
 #include "main.h"
+
 /**
- *  _isalpha - prints_sign shows 1 if the output is 0'.
- * letter another cases 0
+ * _isalpha - checks if a character is an alphabetical letter
+ * @c: the character to be checked
  *
- * @c: the charecter in ASCII code
- * Return: 1 for letters. 0 for the rest.
+ * Return: (1) if c is a letter, (0) otherwise
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 99))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-	_putchar('\n');
+/**
+ * Description: Checks if the input character is an alphabetical letter.
+ * Returns: (1) if c is a letter (lowercase or uppercase), (0) otherwise.
+ */
+
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }

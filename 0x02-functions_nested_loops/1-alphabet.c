@@ -1,16 +1,30 @@
-#int "main.h"
+#include <unistd.h>
+
 /**
- * print_alphabet in lowercase, followed by a new line.
+ * _putchar - Writes a character to the standard output
+ * @c: The character to be written
  *
- * Return: always 0 (success)
+ * Return: On success, 1. On error, -1.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+
+/**
+ * print_alphabet - Prints the alphabet in lowercase followed by a new line
+ *
+ * Description: This function prints the lowercase alphabet using _putchar
+ * You can only use _putchar twice in the code.
  */
 void print_alphabet(void)
 {
-	int i;
+	char letter = 'a';
 
-	for (i = 97; i <= 122; i++)
+	while (letter <= 'z')
 	{
-		_putchar(i);
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 }
